@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 gem 'thin'
+gem 'rails_stdout_logging'
 
 
 # Gems used only for assets and not required

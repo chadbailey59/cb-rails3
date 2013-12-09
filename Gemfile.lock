@@ -72,6 +72,7 @@ GEM
       activesupport (= 3.2.11)
       bundler (~> 1.0)
       railties (= 3.2.11)
+    rails_stdout_logging (0.0.3)
     railties (3.2.11)
       actionpack (= 3.2.11)
       activesupport (= 3.2.11)
@@ -114,6 +115,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.11)
+  rails_stdout_logging
   sass-rails (~> 3.2.3)
   thin
   uglifier (>= 1.0.3)
