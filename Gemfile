@@ -7,8 +7,8 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 gem 'thin'
-gem 'rails_stdout_logging'
-
+# gem 'rails_stdout_logging'
+gem 'rails_12factor', group: :production
 
 # Gems used only for assets and not required
 # in production environments by default.
