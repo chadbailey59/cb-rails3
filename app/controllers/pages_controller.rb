@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   def home
-    Rails.logger.info "printing an info line from the controller"
-    render text: "hi!yo"
+    render text: "Rails 3 Test App"
   end
 end
