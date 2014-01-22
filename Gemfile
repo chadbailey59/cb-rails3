@@ -6,7 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'unicorn'
+gem 'thin'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
 
