@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 gem 'unicorn'
+gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
 
