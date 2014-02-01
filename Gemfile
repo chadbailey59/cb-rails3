@@ -40,4 +40,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'rack-doge'
+gem 'rack-timing'
