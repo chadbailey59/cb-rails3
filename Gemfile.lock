@@ -1,8 +1,3 @@
-PATH
-  remote: ../../CB/rack-timing
-  specs:
-    rack-timing (0.0.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +66,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rack-timing (0.0.1)
     rails (3.2.11)
       actionmailer (= 3.2.11)
       actionpack (= 3.2.11)
@@ -128,7 +124,7 @@ DEPENDENCIES
   newrelic_rpm
   pg
   puma
-  rack-timing!
+  rack-timing
   rails (= 3.2.11)
   rails_12factor
   sass-rails (~> 3.2.3)
