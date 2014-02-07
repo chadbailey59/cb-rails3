@@ -40,4 +40,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'rack-timing', path: "../../CB/rack-timing"
+gem 'rack-timing'
+
