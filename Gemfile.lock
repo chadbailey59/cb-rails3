@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:heroku/rack-queue-metrics.git
+  remote: https://github.com/heroku/rack-queue-metrics.git
   revision: 08c883754171afe207433239e24ec3922ef9e8ea
   branch: cb-logging
   specs:
