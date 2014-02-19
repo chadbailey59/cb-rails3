@@ -1,5 +1,6 @@
 RubyRailsSample::Application.routes.draw do
     get "/test" => "pages#post_test_get"
+    get "/slow/:time" => "pages#slow"
     post "/test" => "pages#post_test_post"
     root to: "pages#home"
   # The priority is based upon order of creation:

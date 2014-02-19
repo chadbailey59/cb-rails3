@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:heroku/rack-queue-metrics.git
+  revision: 08c883754171afe207433239e24ec3922ef9e8ea
+  branch: cb-logging
+  specs:
+    rack-queue-metrics (1.0.2)
+      raindrops
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,6 +132,7 @@ DEPENDENCIES
   newrelic_rpm
   pg
   puma
+  rack-queue-metrics!
   rack-timing
   rails (= 3.2.11)
   rails_12factor

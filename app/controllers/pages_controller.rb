@@ -9,4 +9,11 @@ class PagesController < ApplicationController
   def post_test_post
     @contents = params[:contents]
   end
+
+  def slow
+    time = params[:time].to_i
+    time = 1 if time == 0
+    sleep time
+    render text: "Slept for #{time} second(s)"
+  end
 end
