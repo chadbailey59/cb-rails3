@@ -42,4 +42,5 @@ gem 'jquery-rails'
 
 gem 'rack-timing'
 gem 'rack-queue-metrics', git: "https://github.com/heroku/rack-queue-metrics.git", branch: "cb-logging"
+# gem 'rack-queue-metrics', path: "../../Heroku/rack-queue-metrics"
 
