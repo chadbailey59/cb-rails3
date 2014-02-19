@@ -1,7 +1,5 @@
-GIT
-  remote: https://github.com/heroku/rack-queue-metrics.git
-  revision: 7f2d70c42cd6a7020b9ea3918ad511f5089be4a9
-  branch: cb-logging
+PATH
+  remote: ../../Heroku/rack-queue-metrics
   specs:
     rack-queue-metrics (1.0.2)
       raindrops
