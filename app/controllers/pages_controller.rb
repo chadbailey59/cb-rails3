@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    render text: "Rails 3 Test App"
+    render text: "Rails 3 Test App. Thread count is #{Thread.list.count}"
   end
 
   def post_test_get

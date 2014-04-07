@@ -10,6 +10,7 @@ gem 'unicorn'
 gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
+gem 'psych', '~> 2.0.5'
 
 # Gems used only for assets and not required
 # in production environments by default.
