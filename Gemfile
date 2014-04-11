@@ -42,6 +42,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 # gem 'rack-queue-metrics', path: "../../Heroku/rack-queue-metrics"
-gem 'rack-queue-metrics', git: "https://github.com/heroku/rack-queue-metrics.git", branch: "cb-logging"
+# gem 'rack-queue-metrics', git: "https://github.com/heroku/rack-queue-metrics.git", branch: "cb-logging"
+gem 'rack-latency', git: "https://github.com/chadbailey59/rack-latency.git"
+# gem 'rack-latency', path: "../../Heroku/rack-latency"
 gem 'rack-timing'
-

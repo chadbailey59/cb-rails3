@@ -1,10 +1,8 @@
 GIT
-  remote: https://github.com/heroku/rack-queue-metrics.git
-  revision: 71324dfb2f258dd99e2bb030a9c2524be08ca57d
-  branch: cb-logging
+  remote: https://github.com/chadbailey59/rack-latency.git
+  revision: 312a4e96c044d765e7d499f81a5fbed709ad83e4
   specs:
-    rack-queue-metrics (1.0.2)
-      raindrops
+    rack-latency (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -65,6 +63,7 @@ GEM
     newrelic_rpm (3.7.0.177)
     pg (0.14.1)
     polyglot (0.3.3)
+    psych (2.0.5)
     puma (2.6.0)
       rack (>= 1.1, < 2.0)
     rack (1.4.3)
@@ -131,8 +130,9 @@ DEPENDENCIES
   jquery-rails
   newrelic_rpm
   pg
+  psych (~> 2.0.5)
   puma
-  rack-queue-metrics!
+  rack-latency!
   rack-timing
   rails (= 3.2.11)
   rails_12factor
