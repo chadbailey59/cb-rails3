@@ -3,6 +3,11 @@ class PagesController < ApplicationController
     render text: "Rails 3 Test App. Thread count is #{Thread.list.count}"
   end
 
+  def db
+    ActiveRecord::Base.connection.execute("SELECT 1;").to_s
+    render text: ActiveRecord::Base.connection_pool.connections.count
+  end
+
   def post_test_get
   end
 
