@@ -8,6 +8,7 @@ class PagesController < ApplicationController
     render text: ActiveRecord::Base.connection_pool.connections.count
   end
 
+
   def post_test_get
   end
 
@@ -21,4 +22,7 @@ class PagesController < ApplicationController
     sleep time
     render text: "Slept for #{time} second(s)"
   end
+
+  db
+
 end
