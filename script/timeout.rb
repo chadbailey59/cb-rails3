@@ -1,7 +1,8 @@
 Signal.trap 'TERM' do
   @term_time = Time.now
   loop do
-    puts "I'm in the term loop! I started at #{@term_time}. The current time is #{Time.now}"
+    puts "I'm in the term loop! I started at #{@term_time}. The current time is #{Time.now}."
+    puts "I have been delaying the inevitable for #{Time.now - @term_time}."
     sleep 0.1
   end
 end
