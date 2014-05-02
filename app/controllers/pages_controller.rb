@@ -22,7 +22,4 @@ class PagesController < ApplicationController
     sleep time
     render text: "Slept for #{time} second(s)"
   end
-
-  db
-
 end
