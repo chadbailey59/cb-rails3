@@ -9,7 +9,7 @@ before_fork do |server, worker|
     @start = Time.now
     puts "received SIGTERM at #{@start}"
     loop do
-      puts "elapsed: #{Time.now - @start}s"
+      puts "#{Time.now - @start}s since SIGTERM"
       sleep 0.1
     end
   end

@@ -1,14 +1,15 @@
 Signal.trap 'TERM' do
   @term_time = Time.now
+  puts "Received SIGTERM at #{@term_time}"
   loop do
-    puts "I'm in the term loop! I started at #{@term_time}. The current time is #{Time.now}."
-    puts "I have been delaying the inevitable for #{Time.now - @term_time}."
+    puts "#{Time.now - @term_time}s since SIGTERM"
     sleep 0.1
   end
 end
 
 @start = Time.now
+puts "Started main loop at #{@start}"
 loop do
-  puts "Welcome to the main loop! I started at #{@start}. The current time is #{Time.now}"
-  sleep 1
+  puts "Main loop: Current time is #{Time.now}"
+  sleep 10
 end
