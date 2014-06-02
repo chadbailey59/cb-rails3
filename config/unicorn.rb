@@ -5,13 +5,8 @@ preload_app true
 before_fork do |server, worker|
   Signal.trap 'TERM' do
     #puts 'Unicorn master intercepting TERM and sending myself QUIT instead'
-    #Process.kill 'QUIT', Process.pid
-    @start = Time.now
-    puts "received SIGTERM at #{@start}"
-    loop do
-      puts "#{Time.now - @start}s since SIGTERM"
-      sleep 0.1
-    end
+    Process.kill 'QUIT', Process.pid
+
   end
 
   defined?(ActiveRecord::Base) and

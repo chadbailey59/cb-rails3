@@ -1,6 +1,7 @@
 RubyRailsSample::Application.routes.draw do
     get "/test" => "pages#post_test_get"
     get "/slow/:time" => "pages#slow"
+    get "/logspam/:count" => "pages#logspam"
     get "db" => "pages#db"
     post "/test" => "pages#post_test_post"
     root to: "pages#home"

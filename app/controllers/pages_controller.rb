@@ -8,6 +8,14 @@ class PagesController < ApplicationController
     render text: ActiveRecord::Base.connection_pool.connections.count
   end
 
+  def logspam
+    (0..params[:count].to_i).each do |i|
+      puts "log spam #{i}"
+    end
+
+    render text: "spammed #{params[:count]} log lines"
+  end
+
 
   def post_test_get
   end
